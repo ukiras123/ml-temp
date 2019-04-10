@@ -152,6 +152,7 @@ class BalloonDataset(utils.Dataset):
         # If not a balloon dataset image, delegate to parent class.
         image_info = self.image_info[image_id]
         logging.info("Image source: "+image_info["source"]);
+        print("Image source: ",image_info["source"])
         if image_info["source"] != "balloon":
             return super(self.__class__, self).load_mask(image_id)
 
@@ -169,6 +170,8 @@ class BalloonDataset(utils.Dataset):
             logging.info(p['all_points_y']);
             logging.info("all_points_x");
             logging.info(p['all_points_x']);
+            print("all_points_x: ",p['all_points_x']);
+            print("all_points_y: ",p['all_points_y']);
 
             # Get indexes of pixels inside the polygon and set them to 1
             rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
