@@ -161,6 +161,15 @@ class BalloonDataset(utils.Dataset):
         mask = np.zeros([info["height"], info["width"], len(info["polygons"])],
                         dtype=np.uint8)
         for i, p in enumerate(info["polygons"]):
+            logging.info("Height");
+            logging.info(info["height"]);
+            logging.info("Width");
+            logging.info(info["width"]);
+            logging.info("all_points_y");
+            logging.info(p['all_points_y']);
+            logging.info("all_points_x");
+            logging.info(p['all_points_x']);
+
             # Get indexes of pixels inside the polygon and set them to 1
             rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
             logging.info("RR and CC");
