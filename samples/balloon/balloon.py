@@ -151,8 +151,8 @@ class BalloonDataset(utils.Dataset):
         """
         # If not a balloon dataset image, delegate to parent class.
         image_info = self.image_info[image_id]
-        logging.info("Image source: "+image_info["source"]);
         print("Image source: ",image_info["source"])
+        print("Image Path: ",image_info["path"])
         if image_info["source"] != "balloon":
             return super(self.__class__, self).load_mask(image_id)
 
@@ -161,9 +161,9 @@ class BalloonDataset(utils.Dataset):
         info = self.image_info[image_id]
         mask = np.zeros([info["height"], info["width"], len(info["polygons"])],
                         dtype=np.uint8)
+        print("Width: ",info['width']);
+        print("Height: ",info["height"]);
         for i, p in enumerate(info["polygons"]):
-            print("Width: ",info['width']);
-            print("Height: ",info["height"]);
             print("all_points_x: ",p['all_points_x']);
             print("all_points_y: ",p['all_points_y']);
 
