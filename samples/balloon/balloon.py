@@ -150,6 +150,7 @@ class BalloonDataset(utils.Dataset):
         """
         # If not a balloon dataset image, delegate to parent class.
         image_info = self.image_info[image_id]
+        logging.info("Image source: "+image_info["source"]);
         if image_info["source"] != "balloon":
             return super(self.__class__, self).load_mask(image_id)
 
