@@ -1,0 +1,326 @@
+{
+    "Crop_1.png" : {
+        "fileref" : "",
+        "size" : 157300,
+        "filename" : "Crop_1.png",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions" : {
+            "0" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [243, 284, 246, 241],
+                    "all_points_y" : [359, 359, 37, 37]
+                },
+                "region_attributes" : {}
+            },
+            "1" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [304, 347, 254, 249],
+                    "all_points_y" : [359, 359, 36, 37]
+                },
+                "region_attributes" : {}
+            },
+            "2" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [262, 257, 370, 407],
+                    "all_points_y" : [37, 37, 359, 359]
+                },
+                "region_attributes" : {}
+            },
+            "3" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [239, 234, 180, 228],
+                    "all_points_y" : [37, 37, 359, 359]
+                },
+                "region_attributes" : {}
+            },
+            "4" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [232, 227, 110, 160],
+                    "all_points_y" : [37, 37, 358, 359]
+                },
+                "region_attributes" : {}
+            },
+            "5" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [213, 207, 0, 26],
+                    "all_points_y" : [38, 37, 280, 316]
+                },
+                "region_attributes" : {}
+            },
+            "6" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [276, 270, 478, 479],
+                    "all_points_y" : [36, 37, 316, 262]
+                },
+                "region_attributes" : {}
+            },
+            "7" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [281, 285, 479, 479],
+                    "all_points_y" : [38, 38, 218, 255]
+                },
+                "region_attributes" : {}
+            },
+            "8" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [204, 200, 0, 0],
+                    "all_points_y" : [39, 37, 230, 269]
+                },
+                "region_attributes" : {}
+            }
+        }
+    },
+    "Crop_2.png": {
+        "fileref" : "",
+        "size" : 98947,
+        "filename" : "Crop_1.png",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions" : {
+            "0" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [242, 236, 118, 167],
+                    "all_points_y" : [49, 359, 337, 337]
+                },
+                "region_attributes" : {}
+            },
+            "1" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [248, 243, 190, 234],
+                    "all_points_y" : [51, 50, 337, 337]
+                },
+                "region_attributes" : {}
+            },
+            "2" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [256, 250, 252, 295],
+                    "all_points_y" : [52, 52, 337, 337]
+                },
+                "region_attributes" : {}
+            },
+            "3" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [262, 257, 309, 351],
+                    "all_points_y" : [51, 51, 325, 315]
+                },
+                "region_attributes" : {}
+            },
+            "4" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [270, 264, 371, 419],
+                    "all_points_y" : [49, 50, 336, 335]
+                },
+                "region_attributes" : {}
+            },
+            "5" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [279, 283, 499, 499],
+                    "all_points_y" : [50, 48, 273, 317]
+                },
+                "region_attributes" : {}
+            },
+            "6" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [286, 290, 499, 499],
+                    "all_points_y" : [49, 48, 221, 256]
+                },
+                "region_attributes" : {}
+            },
+            "7" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [225, 220, 1, 0, 19],
+                    "all_points_y" : [53, 50, 279, 306, 308]
+                },
+                "region_attributes" : {}
+            },
+            "8" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [216, 211, 0, 0],
+                    "all_points_y" : [51, 51, 234, 273]
+                },
+                "region_attributes" : {}
+            }
+        }
+    },
+    "Crop_3.png" : {
+        "fileref": "",
+        "size": 149348,
+        "filename": "Crop_3.png",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions" : {
+            "0" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [235, 230, 107, 156],
+                    "all_points_y" : [47, 47, 359, 359]
+                },
+                "region_attributes" : {}
+            },
+            "1" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [240, 236, 169, 210],
+                    "all_points_y" : [48, 49, 359, 359]
+                },
+                "region_attributes" : {}
+            },
+            "2" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [241, 245, 272, 230],
+                    "all_points_y" : [50, 50, 359, 359]
+                },
+                "region_attributes" : {}
+            },
+            "3" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [247, 251, 335, 293],
+                    "all_points_y" : [49, 49, 359, 359]
+                },
+                "region_attributes" : {}
+            },
+            "4" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [254, 259, 396, 351],
+                    "all_points_y" : [51, 50, 359, 359]
+                },
+                "region_attributes" : {}
+            },
+            "5" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [265, 270, 479, 479],
+                    "all_points_y" : [50, 49, 289, 343]
+                },
+                "region_attributes" : {}
+            },
+            "6" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [273, 276, 479, 479],
+                    "all_points_y" : [49, 47, 238, 277]
+                },
+                "region_attributes" : {}
+            },
+            "7" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [220, 216, 0, 0],
+                    "all_points_y" : [51, 50, 298, 347]
+                },
+                "region_attributes" : {}
+            },
+            "8" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [213, 210, 0, 0],
+                    "all_points_y" : [51, 50, 247, 288]
+                },
+                "region_attributes" : {}
+            }
+        }
+    },
+    "Crop_4.png" : {
+        "fileref": "",
+        "size": 147957,
+        "filename": "Crop_4.png",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [242, 237, 226, 269],
+                    "all_points_y" : [63, 63, 359, 359]
+                },
+                "region_attributes" : {}
+            },
+            "1" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [233, 229, 165, 208],
+                    "all_points_y" : [66, 66, 359, 359]
+                },
+                "region_attributes" : {}
+            },
+            "2" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [226, 220, 100, 145],
+                    "all_points_y" : [65, 65, 359, 359]
+                },
+                "region_attributes" : {}
+            },
+            "3" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [245, 250, 323, 285],
+                    "all_points_y" : [65, 64, 349, 334]
+                },
+                "region_attributes" : {}
+            },
+            "4" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [252, 258, 373, 346],
+                    "all_points_y" : [64, 63, 338, 337]
+                },
+                "region_attributes" : {}
+            },
+            "5" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [274, 279, 479, 447],
+                    "all_points_y" : [66, 63, 287, 297]
+                },
+                "region_attributes" : {}
+            },
+            "6" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [282, 287, 479, 479],
+                    "all_points_y" : [64, 63, 242, 283]
+                },
+                "region_attributes" : {}
+            },
+            "7" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [208, 203, 0, 0],
+                    "all_points_y" : [63, 60, 283, 339]
+                },
+                "region_attributes" : {}
+            },
+            "8" : {
+                "shape_attributes" : {
+                    "name" : "polygon",
+                    "all_points_x" : [194, 188, 0, 0],
+                    "all_points_y" : [60, 58, 201, 234]
+                },
+                "region_attributes" : {}
+            }
+        }
+    }
+}
