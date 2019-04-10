@@ -162,22 +162,15 @@ class BalloonDataset(utils.Dataset):
         mask = np.zeros([info["height"], info["width"], len(info["polygons"])],
                         dtype=np.uint8)
         for i, p in enumerate(info["polygons"]):
-            logging.info("Height");
-            logging.info(info["height"]);
-            logging.info("Width");
-            logging.info(info["width"]);
-            logging.info("all_points_y");
-            logging.info(p['all_points_y']);
-            logging.info("all_points_x");
-            logging.info(p['all_points_x']);
+            print("Width: ",info['width']);
+            print("Height: ",info["height"]);
             print("all_points_x: ",p['all_points_x']);
             print("all_points_y: ",p['all_points_y']);
 
             # Get indexes of pixels inside the polygon and set them to 1
             rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
-            logging.info("RR and CC");
-            logging.info(rr);
-            logging.info(cc);
+            print("RR: ",rr);
+            print("CC: ",cc);
             mask[rr, cc, i] = 1
 
         # Return mask, and array of class IDs of each instance. Since we have
