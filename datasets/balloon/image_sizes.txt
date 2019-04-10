@@ -1,3 +1,4 @@
+Crop_1.png   157300
 Crop_2.png   98947
 Crop_3.png   149348
 Crop_4.png   147957
