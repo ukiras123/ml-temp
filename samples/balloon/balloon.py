@@ -241,6 +241,8 @@ def detect_and_color_splash(model, image_path=None, video_path=None):
         print("Running on {}".format(args.image))
         # Read image
         image = skimage.io.imread(args.image)
+        if image.shape[-1] == 4:
+            image = image[..., :3]
         # Detect objects
         r = model.detect([image], verbose=1)[0]
         # Color splash
